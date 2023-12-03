@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.logo {
+    display: flex;
+    background-image: url("https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU");
+    width: 60px;
+    height: 60px;
+    background-repeat: round;
+    align-items:center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #2f3d46;
+}
+
+.title {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    min-height: 600px;
+    background-color: #353535;
+    width: 25vw;
+    margin: 10px;
+    border-radius: 15px;
+    display: fixed;
+}
+
+main {
+    width: 100%;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:15px;
+}
+
+.input {
+    padding: 12px;
+    width: 500px;
+    border-radius: 15px;  
+    font-size: 20px;
+    background-color:#353535;
+    color: #fff;
+}
+
+.card {
+    background-color: #353535;
+    width: 33%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-two{
+    width: calc(100% -20px);
+    background-color: #353535;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+

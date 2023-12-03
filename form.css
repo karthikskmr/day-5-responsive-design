@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    border: 2px solid;
+    width: calc(100vw -16px);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid;
+    padding: 20px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 70% - 22px);
+}
+
+.btn-flex {
+    flex-direction: column;
+}
+
+.profile-image {
+    width: 30%;
+    height: 270px;
+    background-image: url("https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: round;
+    margin: 20px;
+    justify-content: center;
+}
+
+label {
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+select {
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn-class {
+    padding: 10px;
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .content{
+        width: 80%;;
+    }
+    .profile-image{
+        width: 80%;
+    }
+    .form{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .content{
+        width: 80%;;
+    }
+    .profile-image{
+        width: 80%;
+    }
+    .form{
+        width: 70%;
+    }
+}
